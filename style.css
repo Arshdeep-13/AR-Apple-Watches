@@ -407,7 +407,12 @@ nav#navbar .logo:hover{
     align-items: center;
     display: flex;
 }
-
+#navbar input#hamburger-label{
+    visibility: hidden;
+}
+nav#navbar label{
+    visibility: hidden;
+}
 @media only screen and (max-width: 1000px) {
     section#Details4 p{
         width: 90vw;
@@ -540,6 +545,7 @@ nav#navbar .logo:hover{
         color: white;
         font-size: 4vw;
         width: 53%;
+        margin-top: 3vh;
     }
 }
 @media screen and (max-width: 852px) {
@@ -600,6 +606,9 @@ nav#navbar .logo:hover{
     section#Details4 h1{
         font-size: 6vw;
     }
+    nav#navbar label{
+        visibility: visible;
+    }
 }
 @media screen and (max-width: 340px){
     .container2 h2{
@@ -631,6 +640,10 @@ nav#navbar .logo:hover{
         margin-left: 1%;
         margin-top: 11%;
     }
+    .left#s_1 {
+        position: relative;
+        width: 69vw;
+    }
     .right#s_2{
         padding-left: 45%;
         margin-top: -44%;
@@ -646,8 +659,8 @@ nav#navbar .logo:hover{
         width: 75vw;
     }
     .right#s_3 img{
-        height: 20vh;
-        width: 52vw;
+        height: 16vh;
+        width: 40vw;
     }
     .container1 img{
         width: 41vw;
@@ -659,10 +672,10 @@ nav#navbar .logo:hover{
         margin: 90px 0;
     }
     section#Details5{
-        height: 50vh;
+        height: auto;
     }
     section#Details5 img#bg{
-        height: 44.5vh;
+        height: auto;
     }
     section#Details5 .left{
         height: 38vh;
@@ -704,5 +717,40 @@ nav#navbar .logo:hover{
     }
     #navbar ul li{
         font-size: 7vw;
+    }
+    div#s_3.right{
+        margin-bottom: 3vh;
+    }
+    section#Details1 .container1 {
+        height: 30vh;
+    }
+    section#Details3 .container p {
+        font-size: 20px;
+    }
+    section#Details3 .container button {
+        font-size: 16px;
+    }
+    section#Details4 h1 {
+        font-size: 12vw;
+        text-align: center;
+    }
+    section#Details4 p {
+        font-size: 7vw;
+    }
+    section#Details5 .left p {
+        font-size: 4.8vw;
+        font-weight: 100;
+    }
+    section#Details5 .left {
+        height: auto;
+        width: 83.7vw;
+        text-align: center;
+    }
+    section#Details5 .left img {
+        width: 60%;
+        margin-bottom: 2vw;
+    }
+    section#Details5{
+        height: 60vh;
     }
 }
