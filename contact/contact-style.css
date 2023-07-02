@@ -12,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    margin: 100px 0;
+    margin: 50px 0;
 }
 .container1 h1{
     font: 300 60px 'Oswald', sans-serif;
@@ -116,4 +116,21 @@ hr{
     padding: 10px 15px;
     font-size: 17px;
     color: white;
+}
+@media screen and (max-width: 730px){
+    .container3 span{
+        font-size: 4vw;
+    }
+    .box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container3{
+        margin: 5vh 0;
+        width: 58vw;
+    }
+    .container2{
+        width: 55vw;
+    }
 }
